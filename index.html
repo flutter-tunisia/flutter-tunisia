@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flutter Tunisia</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  </head>
+  <body>
+    <!-- Hero Section-->
+    <section id="intro" style="background: url(img/startup-room.jpg)" class="hero bg-cover">
+      <div class="overlay">
+        
+      </div>
+      <div class="content h-100 d-flex align-items-center">
+        <div class="container text-center text-white">
+          <img src="img/flutter_tunisia_logo.png" width="15%">
+          <p class="headings-font-family text-uppercase lead">Welcome to flutter tunisia community</p>
+          <p class="headings-font-family text-uppercase lead" style="font-size: xx-large">We present all the latest contributions in Flutter by Tunisians</a></p>
+        </div>
+      </div><a href="#about" class="scroll-btn link-scroll"><i class="fas fa-angle-double-down"></i></a>
+    </section>
+    <!-- Navbar-->
+    <!-- navbar-->
+    <header class="header sticky-top" >
+      <nav class="navbar navbar-expand-lg border-bottom py-0" style="background-color: #06497B;">
+        <div class="container"><a href="#" class="navbar-brand py-1"><img src="img/flutter_tunisia_logo.png" width="15%" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fas fa-bars"></span></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto px-3">
+              <li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Home </a></li>
+              <li class="nav-item"><a href="#about" class="nav-link text-uppercase link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link text-uppercase link-scroll">Contributions</a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link text-uppercase link-scroll">Portfolio</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link text-uppercase link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- About Section-->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <header class="text-center mb-5">
+              <h2 class="lined text-uppercase">About us</h2>
+            </header>
+            <p class="lead">The flutter tunisia community gather all tunisia flutter devs</p>
+            <p>With it's expertise in the flutter and dart dev the community contribute to the flutter project and to all the communities around the world by providing packages, answers and help to all junior flutter dev out there!</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="mb-0">
+                  <li>new packages and plugins.</li>
+                  <li>Maintaining old packages.</li>
+                  <li>Flutter apps development</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="mb-0">
+                  <li>Flutter articles redaction</li>
+                  <li>Articles and tutorials sharing</li>
+                  <li>Answer questions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6"><img src="img/flutter_tunisia_logo.png" width="80%" alt="..." class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section-->
+    <section id="services" class="bg-gray">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="lined text-uppercase">Contributions</h2>
+        </header>
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <div class="bg-white mb-4 p-4">
+              <div class="icon mb-3"><i class="fa fa-code"></i></div>
+              <h4 class="text-uppercase font-weight-bold">new package dev</h4>
+              <p class="small text-gray">create new packages and plugins to help growing the flutter sdk</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white mb-4 p-4">
+              <div class="icon mb-3"><i class="fas fa-pencil-ruler"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Maintaining packages</h4>
+              <p class="small text-gray">Continuous maintaining of created packages</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white mb-4 p-4">
+              <div class="icon mb-3"><i class="fa fa-mobile"></i></div>
+              <h4 class="text-uppercase font-weight-bold">New app development</h4>
+              <p class="small text-gray">Create new B2B and B2C mobile and web apps using Flutter & Dart</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white mb-4 p-4">
+              <div class="icon mb-3"><i class="far fa-comment-alt"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Flutter Articles</h4>
+              <p class="small text-gray">Article redaction and sharing about flutter and dart.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white mb-4 p-4">
+              <div class="icon mb-3"><i class="fa fa-book"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Tutorials</h4>
+              <p class="small text-gray">Create and share flutter tutorials about various topics.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bg-white mb-4 p-4">
+              <div class="icon mb-3"><i class="fa fa-info-circle"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Junior dev support</h4>
+              <p class="small text-gray">Continous help to junior dev on multiple social media Gitter, Linkedin , Facebook</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section-->
+    <section id="portfolio" class="pb-0">
+      <header class="text-center mb-4">
+        <h2 class="lined text-uppercase mb-5">Portfolio</h2>
+        <p>Here we present all the packages that the community has created.</p>
+      </header>
+      <div>
+        <div class="row" style="width: 100%">         
+          <div class="container-portfolio col-lg-4 col-md-8 col-8 p-0">
+            <img src="img/shaped_bottom_bar.png" alt="..." class="img-fluid d-block mx-auto" width="60%">
+            <a href="https://pub.dev/packages/shaped_bottom_bar" target="_blank">
+              <div class="overlay-portfolio">
+                <div class="text-portfolio">Shaped Bottom Bar</div>
+              </div>
+            </a>
+          </div>
+          <div class="container-portfolio col-lg-4 col-md-8 col-8 p-0">
+            <img src="img/emoji_alert.png" alt="..." class="img-fluid d-block mx-auto" width="60%">
+            <a href="https://pub.dev/packages/emoji_alert" target="_blank">
+              <div class="overlay-portfolio">
+                <div class="text-portfolio">Emoji Alert</div>
+              </div>
+            </a>
+          </div>
+          <div class="container-portfolio col-lg-4 col-md-8 col-8 p-0">
+            <img src="img/motion_toast.png" alt="..." class="img-fluid d-block mx-auto" width="60%">
+            <a href="https://pub.dev/packages/motion_toast" target="_blank">
+              <div class="overlay-portfolio">
+                <div class="text-portfolio">Motion Toast</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">           
+          <div class="container-portfolio col-lg-4 col-md-8 col-8 p-0">
+            <img src="img/cherry_toast.png" alt="..." class="img-fluid d-block mx-auto" width="60%">
+            <a href="https://pub.dev/packages/cherry_toast" target="_blank">
+              <div class="overlay-portfolio">
+                <div class="text-portfolio">Cherry Toast</div>
+              </div>
+            </a>
+          </div>
+          <div class="container-portfolio col-lg-4 col-md-8 col-8 p-0">
+            <img src="img/foldable_list.png" alt="..." class="img-fluid d-block mx-auto" width="60%">
+            <a href="https://pub.dev/packages/foldable_list" target="_blank">
+              <div class="overlay-portfolio">
+                <div class="text-portfolio">Foldable List</div>
+              </div>
+            </a>
+          </div>
+          <div class="container-portfolio col-lg-4 col-md-8 col-8 p-0">
+            <img src="img/input_type_text.png" alt="..." class="img-fluid d-block mx-auto" width="60%">
+            <a href="https://pub.dev/packages/input_type_field" target="_blank">
+              <div class="overlay-portfolio">
+                <div class="text-portfolio">Input type text</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section-->
+    <section id="team">
+      <div class="container">
+        
+      </div>
+    </section>
+    <!-- Map-->
+    <section id="map" class="border-bottom border-top"></section>
+    <!-- Contact Section-->
+    <section id="contact">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="text-uppercase lined">Contact</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-6">
+            <form action="" class="contact-form">
+              <div class="row">
+                <div class="form-group col-lg-6">
+                  <label for="firstName">Your firstname *</label>
+                  <input id="firstName" type="text" name="firstname" placeholder="Enter your firstname" class="form-control">
+                </div>
+                <div class="form-group col-lg-6">
+                  <label for="lastName">Your lastname *</label>
+                  <input id="lastName" type="text" name="lastname" placeholder="Enter your lastname" class="form-control">
+                </div>
+                <div class="form-group col-lg-12">
+                  <label for="email">Your email *</label>
+                  <input id="email" type="email" name="email" placeholder="Enter your email" class="form-control">
+                </div>
+                <div class="form-group col-lg-12">
+                  <label for="message">Your message for us *</label>
+                  <textarea id="message" name="message" placeholder="Enter your message" rows="4" class="form-control"></textarea>
+                </div>
+                <div class="form-group col-lg-12">
+                  <button type="submit" class="btn btn-outline-primary w-100">Send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <p>Get in touch with the community by following us on social media if you already used one of our packages stay tunned for more excited plugins and packages.</p>
+            <p>If you are a tunisian developer you can join the family by contributing to our projects or by submitting one of your projects to our official publisher on pub.dev website.</p>
+            <ul class="mb-0 list-inline text-center">
+              <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-4">
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
